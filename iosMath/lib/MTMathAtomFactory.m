@@ -662,6 +662,7 @@ NSString *const MTSymbolDegree = @"\u00B0"; // \circ
                      @"imath" : [MTMathAtom atomWithType:kMTMathAtomOrdinary value:@"\U0001D6A4"],
                      @"jmath" : [MTMathAtom atomWithType:kMTMathAtomOrdinary value:@"\U0001D6A5"],
                      @"partial" : [MTMathAtom atomWithType:kMTMathAtomOrdinary value:@"\U0001D715"],
+                     @"realnumbers" : [MTMathAtom atomWithType:kMTMathAtomOrdinary value:@"\u211d"],
                      
                      // Spacing
                      @"," : [[MTMathSpace alloc] initWithSpace:3],
